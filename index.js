@@ -53,3 +53,29 @@ const questions = [
     },
 
 ];
+
+// Function to write README file
+function writeToFile(fileName, data) {
+    try {
+        if (!fs.existsSync(fileName)) {
+          fs.mkdirSync(fileName);
+        }
+        fs.writeFile(`./${fileName}/README.md`, generateMarkdown(data), (err) => 
+        err ? console.log(err) : console.log(`Success! Check the '${fileName}' folder`)
+      );
+      } catch (err) {
+        console.error(err)
+      }
+
+ }
+
+// Function to initialize app
+function init() { 
+    inquirer
+    .prompt(questions)
+    .then((data)=>writeToFile(data.title,data))
+    
+}
+
+// Function call to initialize app
+init();
