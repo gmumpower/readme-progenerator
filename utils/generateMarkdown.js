@@ -1,6 +1,6 @@
     // Function that returns a license badge based on which license is passed in
     function renderLicenseBadge(license) {
-        https:img.shields.io/badge/license-MIT-green
+      //https://img.shields.io/badge/license-MIT-green
       //https://img.shields.io/badge/license-Apache--2.0-green
       //https://img.shields.io/badge/license-GPL--3.0-green
       switch (license) {
@@ -23,7 +23,7 @@
     function renderLicenseLink(license) {
       //https://www.gnu.org/licenses/gpl-3.0.en.html
       //http://www.apache.org/licenses/LICENSE-2.0
-        https:choosealicense.com/licenses/mit
+      //https://choosealicense.com/licenses/mit
       switch (license) {
         case "MIT":
           return `https://choosealicense.com/licenses/mit/`;
