@@ -1,4 +1,4 @@
-# README Generator
+# README-Generator
       ## Description
       This application will help with creating a more sharp looking README, useful for future projects.
       
