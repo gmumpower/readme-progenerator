@@ -1,9 +1,9 @@
 # README-Generator
-      ## Description
-      This application will help with creating a more sharp looking README, useful for future projects.
+   ## Description
+   This application will help with creating a more sharp looking README, useful for future projects.
       
-      ## Table of Contents:
-      - [Installation](#installation)
+   ## Table of Contents:
+   - [Installation](#installation)
       - [Usage](#usage)
       - [License](#license)
       - [Contributing](#contributing)
